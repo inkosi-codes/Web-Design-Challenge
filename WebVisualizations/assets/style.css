@@ -26,7 +26,6 @@ html, body {
     margin: 0;
 }
 #main-container .summary-div{
-    background-color: #fff;
     float: left;
     top: 5%;
     margin-left: 15%;
@@ -36,7 +35,6 @@ html, body {
     color: #686d7c;
 }
 #main-container .visual-div{
-    background-color: #fff !important;
     margin-right: 9%;
     position: relative;
     top: 5%;
