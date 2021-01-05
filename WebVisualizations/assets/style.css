@@ -1,16 +1,13 @@
 html, body {
     height: 100%;
 }
-
 .s-navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
 #nav-items{
     padding-left: 70%;
 }
-
 #site-logo {
     background-color: #59A5A5;
     color: #fff;
@@ -22,15 +19,12 @@ html, body {
     color: #59A5A5;
     font-family: Georgia, serif;
 }
-
 #main-container {
     background-color: rgb(230, 230, 230) !important;
     height: 100%;
     width: 100%;
     margin: 0;
 }
-
-
 #main-container .summary-div{
     background-color: #fff;
     float: left;
@@ -41,7 +35,6 @@ html, body {
 #main-container .summary-div p{
     color: #686d7c;
 }
-
 #main-container .visual-div{
     background-color: #fff !important;
     margin-right: 9%;
@@ -49,11 +42,9 @@ html, body {
     top: 5%;
     width:45em;
 }
-
 #main-container .row{
     padding-left: 10%;
 }
-
 .visual-div img{
     width: 300px !important;
     height: 300px !important;
