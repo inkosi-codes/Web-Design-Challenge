@@ -19,6 +19,8 @@ html, body {
 }
 .main-content-title{
     padding-top: 15px;
+    color: #59A5A5;
+    font-family: Georgia, serif;
 }
 
 #main-container {
@@ -34,11 +36,25 @@ html, body {
     float: left;
     top: 5%;
     margin-left: 15%;
-    color: #59A5A5;
-    font-family: Georgia, serif;
     width: 700px;
 }
 #main-container .summary-div p{
     color: #686d7c;
 }
 
+#main-container .visual-div{
+    background-color: #fff;
+    margin-right: 9%;
+    position: relative;
+    top: 5%;
+    width:45em;
+}
+
+#main-container .row{
+    padding-left: 10%;
+}
+
+.visual-div img{
+    width: 300px !important;
+    height: 300px;
+}
