@@ -8,14 +8,14 @@ function load_csv(data) {
     var table_data = '<table class="table table-bordered table-striped">';
     for (var count = 0; count < citi_data.length; count++) {
         if(count === 0){
-            table_data += "<th>";
-            table_data += "<tr>";
+            // table_data += "<th>";
+            // table_data += "<tr>";
         }
         else{
             table_data += "<tr>";
         }
         var cell_data = citi_data[count].split(",");
-        for (var cell_count = 0; cell_count < cell_data.length; cell_count++) {
+        for (var cell_count = 0; cell_count < cell_data.length -1; cell_count++) {
             if (count === 0) {
                 table_data += '<th>' + cell_data[cell_count] + '</th>';
             }
