@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+.s-navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#nav-items{
+    padding-left: 70%;
+}
+
+#site-logo {
+    background-color: #59A5A5;
+    color: #fff;
+    margin: 0px !important;
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+
+#main-container {
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
