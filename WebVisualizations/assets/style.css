@@ -17,11 +17,28 @@ html, body {
     margin: 0px !important;
     font-family:Georgia, Times, "Times New Roman", serif;
 }
+.main-content-title{
+    padding-top: 15px;
+}
 
 #main-container {
-    background-color: lightgrey;
+    background-color: rgb(230, 230, 230) !important;
     height: 100%;
     width: 100%;
     margin: 0;
+}
+
+
+#main-container .summary-div{
+    background-color: #fff;
+    float: left;
+    top: 5%;
+    margin-left: 15%;
+    color: #59A5A5;
+    font-family: Georgia, serif;
+    width: 700px;
+}
+#main-container .summary-div p{
+    color: #686d7c;
 }
 
