@@ -35,6 +35,7 @@ function load_csv(data) {
     $('#cities-data').append(table_data);
 }
 $.ajax({
-    url:"http://cors.io/?./WebVisualizations/Resources/cities.csv",
+    url:"./WebVisualizations/Resources/cities.csv",
+    mode:'cors',
     dataType:"text"                   
 }).done(load_csv);
