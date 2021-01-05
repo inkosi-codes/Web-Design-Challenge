@@ -35,6 +35,6 @@ function load_csv(data) {
     $('#cities-data').append(table_data);
 }
 $.ajax({
-    url:"https://github.com/inkosi-codes/Web-Design-Challenge/blob/main/WebVisualizations/Resources/cities.csv",
+    url:"./WebVisualizations/Resources/cities.csv",
     dataType:"text"                   
 }).done(load_csv);
