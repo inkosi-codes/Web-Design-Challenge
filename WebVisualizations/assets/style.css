@@ -1,9 +1,13 @@
 html, body {
+    margin: 0;
     height: 100%;
 }
 .s-navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+.max-h{
+    height: 100%;
 }
 #nav-items{
     padding-left: 70%;
@@ -20,15 +24,17 @@ html, body {
     font-family: Georgia, serif;
 }
 #main-container {
-    background-color: rgb(230, 230, 230) !important;
-    height: 100%;
+    background-color: rgb(230, 230, 230);
+    height:auto;
     width: 100%;
     margin: 0;
+    min-height: 100%;
 }
 #main-container .summary-div{
     float: left;
     top: 5%;
     margin-left: 15%;
+    margin-top: 25px;
     width: 700px;
 }
 #main-container .summary-div p{
@@ -36,6 +42,7 @@ html, body {
 }
 #main-container .visual-div{
     margin-right: 9%;
+    margin-top: 25px;
     position: relative;
     top: 5%;
     width:45em;
