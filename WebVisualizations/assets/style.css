@@ -2,55 +2,140 @@ html, body {
     margin: 0;
     height: 100%;
 }
+
 .s-navbar {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-.max-h{
+
+img {
+    max-width: 100%;
+}
+
+#sel {
+    border: lightseagreen 2px solid;
+}
+
+.max-h {
     height: 100%;
 }
-#nav-items{
+
+#nav-items {
     padding-left: 70%;
 }
+
 #site-logo {
     background-color: #59A5A5;
     color: #fff;
     margin: 0px !important;
-    font-family:Georgia, Times, "Times New Roman", serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
-.main-content-title{
+
+.main-content-title {
     padding-top: 15px;
     color: #59A5A5;
     font-family: Georgia, serif;
 }
+
 #main-container {
     background-color: rgb(230, 230, 230);
-    height:auto;
+    height: auto;
     width: 100%;
     margin: 0;
     min-height: 100%;
 }
-#main-container .summary-div{
+
+#main-container .summary-div {
     float: left;
     top: 5%;
     margin-left: 15%;
     margin-top: 25px;
     width: 700px;
 }
-#main-container .summary-div p{
+
+#main-container .summary-div p {
     color: #686d7c;
 }
-#main-container .visual-div{
+
+#main-container .visual-div {
     margin-right: 9%;
     margin-top: 25px;
     position: relative;
     top: 5%;
-    width:45em;
+    width: 40em;
 }
-#main-container .row{
-    padding-left: 10%;
+
+#main-container .row {
+    padding-left: 13%;
 }
-.visual-div img{
-    width: 300px !important;
-    height: 300px !important;
+
+.visual-div img {
+    width: 15em;
+    height: 15em;
 }
+
+@media only screen and (max-width:768px) {
+    .s-navbar {
+        background: #59A5A5;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    .row {
+        display: block;
+    }
+}
+
+/* 
+@media screen and (max-width: 600px) {
+    .display-4 {
+        width: 100%;
+    }
+    .summary-div {
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 576px) {
+    .display-4 {
+        width: 100%;
+    }
+    .summary-div {
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .display-4{
+        width:100%;
+    }
+    .summary-div{
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+}
+@media (min-width: 992px) {
+    .display-4{
+        width:100%;
+    }
+    .summary-div{
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .display-4{
+        width:100%;
+    }
+    .summary-div{
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+} */
