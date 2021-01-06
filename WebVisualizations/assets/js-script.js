@@ -9,7 +9,7 @@ function load_csv(data) {
     for (var count = 0; count < citi_data.length; count++) {
         if(count === 0){
             // table_data += "<th>";
-            // table_data += "<tr>";
+             table_data += "<tr>";
         }
         else{
             table_data += "<tr>";
