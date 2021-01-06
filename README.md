@@ -1,5 +1,8 @@
 # Web-Design-Challenge
 
+## View the live site here
+<https://inkosi-codes.github.io/Web-Design-Challenge/index.html>
+
 ## Overview
 
 ### Website Requirements
