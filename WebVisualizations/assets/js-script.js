@@ -15,7 +15,7 @@ function load_csv(data) {
             table_data += "<tr>";
         }
         var cell_data = citi_data[count].split(",");
-        for (var cell_count = 0; cell_count < cell_data.length -1; cell_count++) {
+        for (var cell_count = 0; cell_count < cell_data.length; cell_count++) {
             if (count === 0) {
                 table_data += '<th>' + cell_data[cell_count] + '</th>';
             }
